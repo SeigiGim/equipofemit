@@ -2,7 +2,7 @@ import React from "react";
 
 import Button from "../button/Button";
 
-const Card = ({ foto, nombre, rol, resumen, children, nombreArchivo }) => {
+const Card = ({ foto, nombre, rol, resumen, nombreArchivo, children }) => {
 	return (
 		<>
 			<article class="card">
