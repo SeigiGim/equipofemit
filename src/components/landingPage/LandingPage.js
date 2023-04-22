@@ -1,7 +1,14 @@
 import React from "react";
+import Navbar from "../navbar/Navbar";
+import Card from "../card/Card";
 
 const LandingPage = () => {
-	return <div>LandingPage</div>;
+	return (
+		<>
+			<Navbar />
+			<Card />
+		</>
+	);
 };
 
 export default LandingPage;

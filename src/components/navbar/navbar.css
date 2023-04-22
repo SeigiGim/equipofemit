@@ -1,3 +1,6 @@
-.navbar{
-    background-color: var(--color-primary);
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	background-color: var(--color-primary);
+	padding: var(--medium-1);
 }
