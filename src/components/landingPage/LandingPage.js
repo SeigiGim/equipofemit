@@ -7,6 +7,7 @@ const LandingPage = () => {
 		<>
 			<Navbar />
 			<Card nombreArchivo={"CV_YerkoMedinaPichún.pdf"} />
+			<Card nombreArchivo={"CV Carolina Zúñiga Cancino.pdf"} />
 		</>
 	);
 };
