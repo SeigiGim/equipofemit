@@ -1,10 +1,10 @@
 import React from "react";
-import Button from "./components/button/Button";
+import LandingPage from "./components/landingPage/LandingPage";
 
 const App = () => {
 	return (
 		<div>
-			<Button nombreArchivo="CV_YerkoMedinaPichún.pdf" />
+			<LandingPage />
 		</div>
 	);
 };

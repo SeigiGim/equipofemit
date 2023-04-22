@@ -1,8 +1,8 @@
 import React from "react";
 
-import Button from "./button/Button.js";
+import Button from "../button/Button";
 
-const Card = ({ foto, nombre, rol, resumen, children }) => {
+const Card = ({ foto, nombre, rol, resumen, children, nombreArchivo }) => {
 	return (
 		<>
 			<article class="card">
@@ -18,7 +18,7 @@ const Card = ({ foto, nombre, rol, resumen, children }) => {
 					<main>
 						<div>{children}</div>
 						<div>
-							<Button />
+							<Button nombreArchivo={nombreArchivo} />
 						</div>
 						<div>
 							<h4>Rol en FemIT: {rol}</h4>
