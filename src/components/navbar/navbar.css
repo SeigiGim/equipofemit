@@ -29,13 +29,26 @@
 
 .navbar .links a {
 	color: var(--color-gris-06);
-
 	border: 2px solid transparent;
 	border-radius: 2rem;
 	padding: 1rem;
-
-	transition: color ease 0.3s, border ease 0.3s;
+	transition: color ease 0.3s;
+	position: relative;
 }
+
+.navbar .links a::before {
+	content: "";
+	position: absolute;
+	width: 0px;
+	height: 2px;
+	background-color: var(--color-secondary);
+	left: 50%;
+	bottom: 4px;
+	border-radius: 5px;
+	transform: translateX(-50%);
+	transition: width ease 0.3s;
+}
+
 .navbar .links a h1 {
 	font-weight: 400;
 	font-size: 2rem;
@@ -43,7 +56,10 @@
 
 .navbar .links a:hover {
 	color: var(--color-secondary);
-	border: 2px solid var(--color-secondary);
+	/* border: 2px solid var(--color-secondary); */
+}
+.navbar .links a:hover::before {
+	width: 100%;
 }
 
 /* ============================================== */

@@ -1,30 +1,30 @@
 import React from "react";
-
 import Button from "../button/Button";
+import "./card.css";
 
 const Card = ({ foto, nombre, rol, resumen, nombreArchivo, children }) => {
 	return (
 		<>
-			<article class="card">
+			<article className="card">
 				<div>
-					<hero>
-						<div>
-							<img src={foto} alt={"Foto" + { nombre }} />
-						</div>
-					</hero>
+					<div className="container-image">
+						<img src={foto} alt={"Foto" + { nombre }} />
+					</div>
 					<header>
-						<h1>{nombre}</h1>
+						<h1 className="name">{nombre}</h1>
 					</header>
+					<div>
+						<h4 className="rol">
+							Rol en FemIT: <span>{rol}</span>
+						</h4>
+					</div>
+					<div className="summary">
+						<p>{resumen}</p>
+					</div>
 					<main>
-						<div>{children}</div>
+						<div className="container-links">{children}</div>
 						<div>
 							<Button nombreArchivo={nombreArchivo} />
-						</div>
-						<div>
-							<h4>Rol en FemIT: {rol}</h4>
-						</div>
-						<div>
-							<p>{resumen}</p>
 						</div>
 					</main>
 				</div>

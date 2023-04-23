@@ -1,3 +1,75 @@
 .card {
+	background-color: var(--color-primary);
+	/* background-color: blue; */
+	padding: 2rem;
+	margin: 1rem auto;
+	border-radius: 20px;
+	max-width: 300px;
+
+	box-shadow: 0 5px 15px #000;
+	color: var(--color-gris-06);
+}
+
+.container-image {
+	max-width: 250px;
+	height: 300px;
+	overflow: hidden;
+	background-color: var(--color-gris-03);
+	margin: 0 auto 2rem auto;
+	border-radius: 10px;
+	box-shadow: 0 5px 15px #000;
+}
+
+.container-image img {
+	max-width: 100%;
+	height: auto;
+}
+header .name {
+	text-align: center;
+	font-weight: 400;
+}
+
+div .rol {
+	font-weight: 400;
+	padding: 2rem 0 0 0;
+}
+.summary {
+	padding-top: 2rem;
+	line-height: 1.6;
+	text-align: justify;
+}
+main .container-links {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	margin: 2rem 0;
+}
+
+main .container-links a {
+	color: var(--color-gris-06);
+	transition: color ease 0.3s;
+	position: relative;
+	/* background-color: blue; */
+	padding: 1rem 0;
+}
+main .container-links a::before {
+	content: "";
 	background-color: var(--color-secondary);
+	height: 2px;
+	width: 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transition: width ease 0.3s;
+}
+main .container-links a:hover {
+	color: var(--color-secondary);
+}
+main .container-links a:hover::before {
+	width: 10rem;
+}
+span {
+	font-weight: bold;
+	color: var(--color-secondary);
+	text-transform: uppercase;
 }

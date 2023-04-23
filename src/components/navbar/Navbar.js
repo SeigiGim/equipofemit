@@ -4,16 +4,16 @@ import "./navbar.css";
 
 const Navbar = () => {
 	return (
-		<nav class="navbar">
-			<div class="logo">
+		<nav className="navbar">
+			<div className="logo">
 				<Logo />
 			</div>
-			<div class="links">
+			<div className="links">
 				<a href="#nosotros">
-					<h1 class="nosotros">Nosotros</h1>
+					<h1 className="nosotros">Nosotros</h1>
 				</a>
 				<a href="#femit">
-					<h1 class="femit">FemIT</h1>
+					<h1 className="femit">FemIT</h1>
 				</a>
 			</div>
 		</nav>
