@@ -17,9 +17,23 @@ const LandingPage = () => {
 				/>
 				<Card nombre={"Victor Caro"} nombreArchivo={"nombredelpdf"} />
 				<Card
+					foto={require("./assets/Carolina Zuñiga (1).jpg")}
 					nombre={"Carolina Zúñiga"}
+					resumen={
+						"Hola! Soy Carolina Zuñiga y soy ingenieria industrial. Tengo 3 años de experiencia laboral en Entel, en el área de soporte técnico pero ahora quiero darle un impulso a mi carrera laboral y me quiero desarrollar en el mundo de la programación back end y eventualmente especializarme como analista de datos. Me considero una persona calmada y constante, con la capacidad de adaptarme a nuevos desafíos y capaz de insertarme y potenciar los equipos en los que formo parte. En mis 3 años de experiencia laboral, desarrollé habilidades como la orientación al detalle, la eficacia y la productividad."
+					}
+					rol={"Backend"}
 					nombreArchivo={"CV Carolina Zúñiga Cancino.pdf"}
-				/>
+				>
+					<Link
+						link="https://www.linkedin.com/in/carolinazu%C3%B1igacancino/"
+						nombre="Ir a LinkedIn"
+					/>
+					<Link 
+						link="https://github.com/magdazu"
+						nombre="Ir a Github"
+					/>
+				</Card>
 				<Card
 					// foto={require("./assets/YerkoMedinaPichún.png")}
 					foto={require("./assets/YerkoMedinaPichún.png")}
