@@ -21,5 +21,6 @@
 	background-color: var(--color-secondary);
 	color: var(--color-gris-07);
 	font-size: 20px;
+	box-shadow: 0 4px 8px #000;
 	padding: 10px;
 }

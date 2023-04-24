@@ -10,6 +10,10 @@ const LandingPage = () => {
 	return (
 		<>
 			<Navbar class="home" />
+			<div id="femit">
+				<h1 class="section-title">¿Qué es FemIT?</h1>
+				<Femit />
+			</div>
 			<div id="nosotros">
 				<h1 class="section-title">Equipo FemIT</h1>
 			</div>
@@ -88,10 +92,6 @@ const LandingPage = () => {
 						nombre="Ir a Portafolio"
 					/>
 				</Card>
-			</div>
-			<div id="femit">
-				<h1 class="section-title">¿Qué es FemIT?</h1>
-				<Femit />
 			</div>
 			<ScrollButton />;
 		</>
