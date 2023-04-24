@@ -2,6 +2,8 @@
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: auto auto;
+	padding: var(--small-2) 0;
+	background-color: var(--color-primary);
 	place-items: center;
 	margin: 2rem 0;
 	gap: 2rem;
@@ -10,7 +12,8 @@
 .femit-container div:first-of-type {
 	background-color: var(--color-gris-05);
 	border-radius: 50%;
-	box-shadow: 0 5px 15px 0 var(--color-gris-02);
+	box-shadow: 0 4px 8px 0 black;
+	margin-top: var(--medium-3);
 }
 
 @media (min-width: 768px) {
@@ -20,6 +23,7 @@
 	}
 	.femit-container div:first-of-type {
 		grid-column: 2 / 3;
+		margin-top: 0;
 	}
 	.femit-container div:last-of-type {
 		grid-column: 1 / 2;
