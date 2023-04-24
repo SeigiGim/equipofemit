@@ -17,7 +17,8 @@
 
 .card:active,
 .card:hover {
-	transform: scale(1.08);
+	transform: scale(1.05);
+	z-index: 8;
 }
 
 .card .button-cv {
@@ -62,8 +63,7 @@ main .container-links {
 	margin: 2rem 0;
 }
 
-main .container-links a,
-i {
+main .container-links a {
 	color: var(--color-gris-06);
 	transition: color ease 0.3s;
 	position: relative;
@@ -81,13 +81,26 @@ main .container-links a::before {
 	left: 0;
 	transition: width ease 0.3s;
 }
-main .container-links a:hover,
-main .container-links i:hover {
+main .container-links a {
+	width: 18rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+main .container-links a i {
+	margin-left: 2rem;
+	font-size: 2rem;
+}
+main .container-links a:hover {
 	color: var(--color-secondary);
 }
-main .container-links a:hover::before,
-main.container-links i:hover::before {
-	width: 10rem;
+
+main .container-links a:hover i {
+	color: var(--color-secondary);
+}
+
+main .container-links a:hover::before {
+	width: 18rem;
 }
 
 .container-button {

@@ -8,8 +8,8 @@ const Link = ({ link, nombre, icon }) => {
 			<div class="linkIcon-container">
 				<a href={link} target="_blank" rel="noreferrer noopener">
 					{nombre}
+					<i class={`icon link ${icon}`} />
 				</a>
-				<i class={`icon link ${icon}`} />
 			</div>
 		</>
 	);

@@ -3,24 +3,38 @@
 	position: fixed;
 	bottom: var(--small-1);
 	right: var(--large-1);
-	padding: var(--small-4);
 	width: var(--small-3);
+	width: 5rem;
+	height: 5rem;
+	background-color: var(--color-tertiary);
+
+	border-radius: 50%;
 	text-decoration: none;
 	transition: ease 0.3s;
+	box-shadow: 0 4px 8px #000;
+	cursor: pointer;
+	z-index: 10;
 }
 
-.botonarriba i:hover,
-.botonarriba i:active {
-	transform: scale(1.1);
-	background-color: var(--color-primary);
-	color: var(--color-secondary);
-	border: 1px solid var(--color-secondary);
+.botonarriba:hover,
+.botonarriba:active {
+	/* transform: scale(1.1); */
+	background-color: var(--color-secondary);
+}
+.botonarriba:hover i,
+.botonarriba:active i {
+	color: var(--color-gris-06);
 }
 
 .botonarriba i {
-	background-color: var(--color-secondary);
-	color: var(--color-gris-07);
-	font-size: 20px;
-	box-shadow: 0 4px 8px #000;
-	padding: 10px;
+	/* background-color: var(--color-secondary); */
+
+	font-size: 25px;
+	color: var(--color-gris-03);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/* box-shadow: 0 4px 8px #000; */
+	/* padding: 10px; */
 }
