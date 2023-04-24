@@ -15,7 +15,24 @@ const LandingPage = () => {
 					nombre={"Javiera Sepúlveda"}
 					nombreArchivo={"CVJavieraSepulveda.pdf"}
 				/>
-				<Card nombre={"Victor Caro"} nombreArchivo={"nombredelpdf"} />
+				<Card
+					foto={require("./assets/Victor Caro.jpg")}
+					nombre={"Víctor Caro"}
+					resumen={
+						"Me fascina la tecnología y todas las oportunidades que ofrece. Trabajé durante mucho tiempo como maestro de cocina, donde adquirí muchas habilidades y aprendí la importancia de trabajar en equipo. Sin embargo, mi pasión por la programación me llevo a dar un gran paso para ingresar a la industria tech, en la cual deseo aprender y crecer para poder contribuir con mis habilidades técnicas y creativas en un entorno colaborativo."
+					}
+					rol={"Product Owner"}
+					nombreArchivo={"CV Victor Caro.pdf"}
+				>
+					<Link
+						link="https://www.linkedin.com/in/victorcaror/"
+						nombre="Ir a LinkedIn"
+					/>
+					<Link 
+						link="https://github.com/VictorCaro"
+						nombre="Ir a Github"
+					/>
+				</Card>
 				<Card
 					foto={require("./assets/Carolina Zuñiga (1).jpg")}
 					nombre={"Carolina Zúñiga"}
