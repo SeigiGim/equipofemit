@@ -23,11 +23,9 @@ const Card = ({ foto, nombre, rol, resumen, nombreArchivo, children }) => {
 					</div>
 					<main>
 						<div className="container-links">{children}</div>
-						<div>
-							<Button nombreArchivo={nombreArchivo} />
-						</div>
 					</main>
 				</div>
+				<Button nombreArchivo={nombreArchivo} />
 			</article>
 		</>
 	);

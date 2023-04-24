@@ -1,6 +1,17 @@
+.home {
+	overflow: scroll;
+}
+
 .container-cards {
 	display: grid;
 	margin: 4rem 0;
+}
+
+.section-title {
+	text-align: center;
+	margin-top: var(--large-3);
+	font-size: var(--large-4);
+	color: var(--color-secondary);
 }
 
 @media (min-width: 768px) {

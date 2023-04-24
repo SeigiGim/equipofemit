@@ -7,14 +7,17 @@
 	justify-content: center;
 	align-items: center;
 	font-size: 1.8rem;
+	font-family: var(--fuente-titulo);
 	font-weight: 500;
 	letter-spacing: 1px;
-	border-radius: 1rem;
+	border-radius: 8px;
 	text-transform: uppercase;
 	box-shadow: 0 5px 15px #000;
 	transition: background-color ease 0.3s, color ease 0.3s;
+	width: 80%;
 }
 
+.button:active,
 .button-cv:hover {
 	background-color: var(--color-gris-06);
 	color: var(--color-secondary);

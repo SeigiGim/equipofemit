@@ -1,0 +1,19 @@
+.femit-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* gap: var(--small-1); */
+	flex-wrap: wrap;
+}
+
+.femit-resumen {
+	max-width: 600px;
+	width: 100%;
+	color: var(--color-primary);
+	text-align: justify;
+	font-family: var(--fuente-parrafo);
+	padding: var(--small-3) 0 var(--small-3) 0;
+	font-size: var(--medium-3);
+	font-weight: bold;
+	margin: 0 auto;
+}

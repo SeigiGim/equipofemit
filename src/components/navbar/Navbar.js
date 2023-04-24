@@ -9,11 +9,11 @@ const Navbar = () => {
 				<Logo />
 			</div>
 			<div className="links">
-				<a href="#femit">
-					<h1 className="femit">FemIT</h1>
-				</a>
 				<a href="#nosotros">
 					<h1 className="nosotros">Nosotros</h1>
+				</a>
+				<a href="#femit">
+					<h1 className="femit">FemIT</h1>
 				</a>
 			</div>
 		</nav>

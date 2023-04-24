@@ -1,0 +1,25 @@
+.botonarriba {
+	appearance: none;
+	position: fixed;
+	bottom: var(--small-1);
+	right: var(--large-1);
+	padding: var(--small-4);
+	width: var(--small-3);
+	text-decoration: none;
+	transition: ease 0.3s;
+}
+
+.botonarriba i:hover,
+.botonarriba i:active {
+	transform: scale(1.1);
+	background-color: var(--color-primary);
+	color: var(--color-secondary);
+	border: 1px solid var(--color-secondary);
+}
+
+.botonarriba i {
+	background-color: var(--color-secondary);
+	color: var(--color-gris-07);
+	font-size: 20px;
+	padding: 10px;
+}

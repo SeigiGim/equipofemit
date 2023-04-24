@@ -6,6 +6,8 @@
 	background-color: var(--color-primary);
 	padding: var(--medium-1);
 	gap: 2rem;
+	box-shadow: 0 2px 8px #000;
+	font-family: var(--fuente-titulo);
 	/* background-color: red; */
 }
 
@@ -27,7 +29,8 @@
 	gap: 1rem;
 }
 
-.navbar .links a {
+.navbar .links a,
+i {
 	color: var(--color-gris-06);
 	border: 2px solid transparent;
 	border-radius: 2rem;
