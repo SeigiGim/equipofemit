@@ -40,9 +40,26 @@ const LandingPage = () => {
 				</Card>
 
 				<Card
+					foto={require("./assets/JavieraSepulveda.jpg")}
 					nombre={"Javiera Sepúlveda"}
+					rol={"Backend"}
 					nombreArchivo={"CVJavieraSepulveda.pdf"}
-				/>
+					resumen={
+						"¡Hola! Mi nombre es Javiera Sepúlveda. Soy developer con un background en lingüística. Me considero una persona perseverante, con mentalidad de crecimiento y que busca siempre la eficiencia y atención al detalle en lo que hace. Poseo conocimientos básicos en portugués e italiano y avanzado en inglés. En Generation me formé como desarrolladora Java y actualmente estoy aprendiendo Python. Ahora que he finalizado el bootcamp tengo mucha motivación por insertarme en el mundo TI como desarrolladora para ayudar a encontrar soluciones a través de la tecnología y seguir mejorando mis habilidades ya que me gusta mantenerme constantemente aprendiendo y progresando"
+					}
+				>
+					<Link
+						link="https://www.linkedin.com/in/javiera-sepulveda-r/"
+						nombre="Ir a LinkedIn"
+						icon={"fa-brands fa-linkedin"}
+					/>
+					<Link
+						link="https://github.com/JSepulved"
+						nombre="Ir a GitHub"
+						icon={"fa-brands fa-square-github"}
+					/>
+				</Card>
+				
 				<Card
 					foto={require("./assets/Victor Caro.jpg")}
 					nombre={"Víctor Caro"}
