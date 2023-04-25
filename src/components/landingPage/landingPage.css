@@ -9,8 +9,9 @@
 
 .section-title {
 	text-align: center;
-	margin-top: var(--large-3);
+	margin-top: var(--xl-2);
 	font-size: var(--large-4);
+	font-family: var(--fuente-titulo);
 	color: var(--color-secondary);
 }
 

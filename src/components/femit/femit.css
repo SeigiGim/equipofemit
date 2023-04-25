@@ -5,7 +5,7 @@
 	padding: var(--small-2) 0;
 	background-color: var(--color-primary);
 	place-items: center;
-	margin: 2rem 0;
+	margin: var(--large-3) 0;
 	gap: 2rem;
 }
 
