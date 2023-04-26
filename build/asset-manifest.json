@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9489bfc5.css",
+    "main.js": "/static/js/main.42b63fc2.js",
+    "static/media/SeigiGim.jpg": "/static/media/SeigiGim.11e1d4eaff77c79af073.jpg",
+    "static/media/Carolina Zuñiga (1).jpg": "/static/media/Carolina Zuñiga (1).077df9e701d8034bb1d0.jpg",
+    "static/media/Victor Caro.jpg": "/static/media/Victor Caro.14492c777a925c4ed863.jpg",
+    "static/media/JavieraSepulveda.jpg": "/static/media/JavieraSepulveda.1a53ba6f6e2c9540cee6.jpg",
+    "static/media/YerkoMedinaPichún.png": "/static/media/YerkoMedinaPichún.f99217a570b81db041b9.png",
+    "static/media/femit.svg": "/static/media/femit.43a0f6561853a669004e417a5c4b26fb.svg",
+    "index.html": "/index.html",
+    "main.9489bfc5.css.map": "/static/css/main.9489bfc5.css.map",
+    "main.42b63fc2.js.map": "/static/js/main.42b63fc2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9489bfc5.css",
+    "static/js/main.42b63fc2.js"
+  ]
+}
